@@ -57,6 +57,9 @@ body {
 .header-contacts-link:focus {
   color: var(--text-color);
 }
+.header-contacts-item {
+  font-style: normal;
+}
 .header-contacts-link {
   font-style: normal;
   font-size: 16px;
