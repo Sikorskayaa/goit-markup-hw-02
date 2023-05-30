@@ -15,31 +15,35 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header-navigation">
+      <nav class="header-navigation list">
         <a href="./index.html" class="header-logo link"
           ><span>Web</span>Studio</a
         >
-        <ul class="header-menu">
+        <ul class="header-menu list">
           <li class="header-menu-item list">
-            <a class="header-menu-link link" href="/">Studio</a>
+            <a class="header-menu-link link" href="./index.html">Studio</a>
           </li>
           <li class="header-menu-item list">
-            <a class="header-menu-link link" href="./index.html">Portfolio</a>
+            <a class="header-menu-link link" href="./portfolio.html"
+              >Portfolio</a
+            >
           </li>
           <li class="header-menu-item list">
             <a class="header-menu-link link" href="/">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul class="header-address">
-          <li class="header-address-menu list">
-            <a class="header-address-link link" href="mailto:info@devstudio.com"
+      <address class="header-contacts">
+        <ul class="header-contacts-item list">
+          <li>
+            <a
+              class="header-contacts-link link"
+              href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="header-address-menu list">
-            <a class="header-address-link link" href="tel:+110001111111"
+          <li>
+            <a class="header-contacts-link link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -48,103 +52,128 @@
     </header>
 
     <main>
-      <section>
+      <section class="aplication">
         <h1 hidden>Portfolio</h1>
-        <ul class="portfolio list">
-          <li><button type="button" class="portfolio-btn-all">All</button></li>
-          <li><button type="button" class="portfolio-btn">Web Site</button></li>
-          <li><button type="button" class="portfolio-btn">App</button></li>
-          <li><button type="button" class="portfolio-btn">Design</button></li>
+        <ul class="aplication-click list">
+          <li><button type="button" class="aplication-btn-all">All</button></li>
           <li>
-            <button type="button" class="portfolio-btn">Marketing</button>
+            <button type="button" class="aplication-btn">Web Site</button>
+          </li>
+          <li><button type="button" class="aplication-btn">App</button></li>
+          <li><button type="button" class="aplication-btn">Design</button></li>
+          <li>
+            <button type="button" class="aplication-btn">Marketing</button>
           </li>
         </ul>
 
-        <ul class="imagess">
-          <li class="imagess-pages-item list">
-            <img
-              src="./images/app1.jpg"
-              alt="banking app"
-              width="360"
-              height="300"
-            />
-            <h2 class="imagess-title">Banking App Interface Concept</h2>
-            <p class="imagess-text-col">App</p>
+        <ul class="imagess list">
+          <li>
+            <a href="" class="images-img link">
+              <img
+                src="./images/app1.jpg"
+                alt="banking app"
+                width="360"
+                height="300"
+              />
+              <h2 class="imagess-title">Banking App Interface Concept</h2>
+              <p class="imagess-text-col">App</p>
+            </a>
           </li>
-          <li class="imagess-pages-item list">
-            <img
-              src="./images/iphone2.jpg"
-              alt="qr scan"
-              width="360"
-              height="300"
-            />
-            <h2 class="imagess-title">Cashless Payment</h2>
-            <p class="imagess-text-col">Marketing</p>
+          <li>
+            <a href="" class="images-img link">
+              <img
+                src="./images/iphone2.jpg"
+                alt="qr scan"
+                width="360"
+                height="300"
+              />
+              <h2 class="imagess-title">Cashless Payment</h2>
+              <p class="imagess-text-col">Marketing</p>
+            </a>
           </li>
-          <li class="imagess-pages-item list">
-            <img
-              src="./images/laptop3.jpg"
-              alt="laptop and phone"
-              width="360"
-              height="300"
-            />
-            <h2 class="imagess-title">Meditation App</h2>
-            <p class="imagess-text-col">App</p>
+          <li>
+            <a href="" class="images-img link">
+              <img
+                src="./images/laptop3.jpg"
+                alt="laptop and phone"
+                width="360"
+                height="300"
+              />
+              <h2 class="imagess-title">Meditation App</h2>
+              <p class="imagess-text-col">App</p>
+            </a>
           </li>
-          <li class="imagess-pages-item list">
-            <img src="./images/taxi4.jpg" alt="taxi" width="360" height="300" />
-            <h2 class="imagess-title">Taxi Service</h2>
-            <p>Marketing</p>
+          <li>
+            <a href="" class="images-img link">
+              <img
+                src="./images/taxi4.jpg"
+                alt="taxi"
+                width="360"
+                height="300"
+              />
+              <h2 class="imagess-title">Taxi Service</h2>
+              <p class="imagess-text-col">Marketing</p>
+            </a>
           </li>
-          <li class="imagess-pages-item list">
-            <img
-              src="./images/illus5.jpg"
-              alt="Screen Illustrations"
-              width="360"
-              height="300"
-            />
-            <h2 class="imagess-title">Screen Illustrations</h2>
-            <p class="imagess-text-col">Design</p>
+          <li>
+            <a href="" class="images-img link">
+              <img
+                src="./images/illus5.jpg"
+                alt="Screen Illustrations"
+                width="360"
+                height="300"
+              />
+              <h2 class="imagess-title">Screen Illustrations</h2>
+              <p class="imagess-text-col">Design</p>
+            </a>
           </li>
-          <li class="imagess-pages-item list">
-            <img
-              src="./images/service6.jpg"
-              alt="girl with phone"
-              width="360"
-              height="300"
-            />
-            <h2 class="imagess-title">Online Courses</h2>
-            <p class="imagess-text-col">Marketing</p>
+          <li>
+            <a href="" class="images-img link">
+              <img
+                src="./images/service6.jpg"
+                alt="girl with phone"
+                width="360"
+                height="300"
+              />
+              <h2 class="imagess-title">Online Courses</h2>
+              <p class="imagess-text-col">Marketing</p>
+            </a>
           </li>
-          <li class="imagess-pages-item list">
-            <img
-              src="./images/cards7.jpg"
-              alt="design"
-              width="360"
-              height="300"
-            />
-            <h2 class="imagess-title">Instagram Stories Concept</h2>
-            <p class="imagess-text-col">Design</p>
+          <li>
+            <a href="" class="images-img link">
+              <img
+                src="./images/cards7.jpg"
+                alt="design"
+                width="360"
+                height="300"
+              />
+              <h2 class="imagess-title">Instagram Stories Concept</h2>
+              <p class="imagess-text-col">Design</p>
+            </a>
           </li>
-          <li class="imagess-pages-item list">
-            <img
-              src="./images/fruit8.jpg"
-              alt="fruits"
-              width="360"
-              height="300"
-            />
-            <h2 class="imagess-title">Organic Food</h2>
-            <p class="imagess-text-col">Web Site</p>
+          <li>
+            <a href="" class="images-img link">
+              <img
+                src="./images/fruit8.jpg"
+                alt="fruits"
+                width="360"
+                height="300"
+              />
+              <h2 class="imagess-title">Organic Food</h2>
+              <p class="imagess-text-col">Web Site</p>
+            </a>
           </li>
-          <li class="imagess-pages-item list">
-            <img
-              src="./images/coffe9.jpg"
-              alt="cappuccino"
-              width="360"
-              height="300"
-            />
-            <h2 class="imagess-title">Fresh Coffee</h2>
-            <p class="imagess-text-col">Web Site</p>
+          <li>
+            <a href="" class="images-img link">
+              <img
+                src="./images/coffe9.jpg"
+                alt="cappuccino"
+                width="360"
+                height="300"
+              />
+              <h2 class="imagess-title">Fresh Coffee</h2>
+              <p class="imagess-text-col">Web Site</p>
+            </a>
           </li>
         </ul>
       </section>

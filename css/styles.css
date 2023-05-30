@@ -51,13 +51,13 @@ body {
 .header-menu-link:focus {
   color: var(--text-color);
 }
-.header-address-link:hover {
+.header-contacts-link:hover {
   color: var(--text-color);
 }
-.header-address-link:focus {
+.header-contacts-link:focus {
   color: var(--text-color);
 }
-.header-address-link {
+.header-contacts-link {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -171,7 +171,7 @@ body {
 body {
   font-family: "Roboto", sans-serif;
 }
-.portfolio-btn-all {
+.aplication-btn-all {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -181,7 +181,7 @@ body {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
 }
-.portfolio-btn {
+.aplication-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -194,8 +194,7 @@ body {
 
 .imagess {
 }
-.imagess-pages-item {
-}
+
 .imagess-title {
   font-weight: 500;
   font-size: 20px;
