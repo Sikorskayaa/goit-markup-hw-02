@@ -57,7 +57,7 @@ body {
 .header-contacts-link:focus {
   color: var(--text-color);
 }
-.header-contacts-item {
+.header-contacts-list {
   font-style: normal;
 }
 .header-contacts-link {
